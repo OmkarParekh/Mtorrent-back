@@ -4,16 +4,15 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "starts": "nodemon server.js"
   },
   "author": "Omkar Parekh",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.0",
-    "cheerio": "^1.0.0-rc.3",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "nodemon": "^2.0.6",
-    "request-promise": "^4.2.6"
+    "nodemon": "^2.0.7"
   }
 }
