@@ -1,7 +1,7 @@
 const router=require('express').Router()
 
 const {Torrent}=require('../Scrapper/Scrapper')
-router.get('/',async(req,res)=>{
+router.get('/all',async(req,res)=>{
      const data=await Torrent(`top-100`)
      // console.log(data);
      res.send(data)
