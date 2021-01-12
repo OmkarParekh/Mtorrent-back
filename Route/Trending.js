@@ -1,13 +1,13 @@
 const router=require('express').Router()
 
 const {Torrent}=require('../Scrapper/Scrapper')
-router.get('/day',async(req,res)=>{
+router.get('/all/day',async(req,res)=>{
      const data=await Torrent(`trending`)
      // console.log(data);
      res.send(data)
      
 })
-router.get('/week',async(req,res)=>{
+router.get('/all/week',async(req,res)=>{
      const data=await Torrent(`trending-week`)
      // console.log(data);
      res.send(data)
