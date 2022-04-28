@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "v16.13.0"
+  },
   "scripts": {
-    "starts": "node server.js"
+    "starts": "nodemon server.js"
   },
   "author": "Omkar Parekh",
   "license": "ISC",
