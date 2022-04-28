@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "starts": "nodemon server.js"
+    "starts": "node server.js"
   },
   "author": "Omkar Parekh",
   "license": "ISC",
