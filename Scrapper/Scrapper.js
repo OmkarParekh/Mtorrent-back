@@ -4,8 +4,8 @@ async function html(link) {
   const res = await Axios.get(link, {
     // Proxy example for the Axios Users
     proxy: {
-      host: `84.21.191.238`,
-      port: 7773,
+      host: `144.168.217.89`,
+      port: 8781,
       auth: {
         username: "xsdmhtgj",
         password: "1bnfxj8vryno",
