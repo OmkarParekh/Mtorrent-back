@@ -2,12 +2,12 @@
   "name": "web-scrapping",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   },
   "scripts": {
-    "starts": "nodemon server.js"
+    "starts": "nodemon index.js"
   },
   "author": "Omkar Parekh",
   "license": "ISC",
